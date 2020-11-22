@@ -1,0 +1,21 @@
+{
+    "name": "anboo/transaction-manager",
+    "description": "Transaction manager psr",
+    "type": "library",
+    "require": {
+        "symfony/stopwatch": "5.x-dev",
+        "psr/log": "^1.1@dev"
+    },
+    "authors": [
+        {
+            "name": "anboo",
+            "email": "rusdteam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Anboo\\TransactionManager\\": "src/"
+        }
+    }
+}
