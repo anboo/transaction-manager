@@ -3,7 +3,7 @@
     "description": "Transaction manager psr",
     "type": "library",
     "require": {
-        "symfony/stopwatch": "5.x-dev",
+        "symfony/stopwatch": "5.*",
         "psr/log": "^1.1@dev"
     },
     "authors": [
